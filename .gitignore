@@ -2,7 +2,5 @@
 *.tar.zst
 *.qr.png
 *.sha256
-*.bak
-# tokens (lokalt, ALDRIG i git)
-/../.gh_token
-/../.cf_token
+.gh_token
+.cf_token
