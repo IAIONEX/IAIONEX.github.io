@@ -108,3 +108,32 @@ footer{
   cursor:pointer
 }
 .iax-bubble.iax-mini:active{transform:scale(.98)}
+/* IAIONEX mini-chat v2 */
+:root{--bg:#0b1520;--card:#111825;--line:#263445;--text:#e8eef6;--accent:#6bb4ff}
+html,body{height:100%} body{margin:0;background:#0b1520;color:var(--text);font:16px/1.55 system-ui,Segoe UI,Roboto,Ubuntu,sans-serif}
+.top-header{padding:12px 0 0; text-align:center}
+.logo-top{width:min(160px,40vw);height:auto;filter:drop-shadow(0 6px 20px rgba(0,0,0,.45))}
+.pill-nav a{display:inline-block;margin:6px;padding:10px 14px;border:1px solid var(--line);
+  border-radius:999px;background:#162235;color:var(--text);text-decoration:none}
+
+/* bubble */
+.iax-root{position:fixed;right:18px;bottom:18px;z-index:9999}
+.iax-bubble.iax-mini{width:64px;height:64px;border-radius:50%;border:0;background:transparent;box-shadow:0 10px 26px rgba(0,0,0,.45);cursor:pointer}
+.iax-mini-img{width:64px;height:64px;border-radius:50%;display:block}
+
+/* panel + animation */
+.iax-panel{position:fixed;right:18px;bottom:92px;width:min(92vw,420px);max-height:min(72vh,640px);
+  background:rgba(17,24,37,.92);border:1px solid var(--line);border-radius:14px;box-shadow:0 16px 40px rgba(0,0,0,.55);
+  display:block;opacity:0;transform:translateY(10px) scale(.98);pointer-events:none;transition:opacity .16s ease, transform .16s ease, visibility .16s ease}
+.iax-panel.open{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
+.iax-head{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;border-bottom:1px solid var(--line);background:#0f1622}
+.iax-title{font-weight:600}
+.iax-close{background:transparent;border:0;color:var(--text);font-size:22px;cursor:pointer}
+.iax-log{padding:10px 12px;overflow:auto;max-height:48vh}
+.iax-msg{margin:6px 0;padding:8px 10px;border-radius:12px;max-width:92%}
+.iax-msg.user{background:rgba(255,255,255,.10);align-self:flex-end}
+.iax-msg.bot{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08)}
+.iax-form{display:flex;gap:8px;padding:10px 12px;border-top:1px solid var(--line)}
+.iax-input{flex:1;padding:10px;border-radius:10px;border:1px solid var(--line);background:#0f1622;color:var(--text);outline:none}
+.iax-send{padding:10px 14px;border-radius:10px;border:1px solid transparent;background:linear-gradient(180deg,#8fd0ff,#6bb4ff);color:#07121b;font-weight:600;cursor:pointer}
+@media (max-width:480px){.iax-panel{right:10px;left:10px;width:auto}}
