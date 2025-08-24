@@ -1,0 +1,32 @@
+{
+  "artifact_type":"patent_manifest",
+  "artifact_version":"1.0.0",
+  "owner":"JLG",
+  "company":"IAIONEX.AB",
+  "uid":"IAIONEX.70ID",
+  "orcid":"0009-0001-9029-1379",
+  "policy":["offline_only","uid_locked","no_cloud","immutable"],
+  "jurisdiction":["SE","EU","INTL","WIPO_PCT"],
+  "time":{"ts_utc":"<set_at_export_utc>"},
+  "licensing":{
+    "type":"exclusive_non_transferable_perpetual",
+    "protection":["Swedish Copyright","Global Copyright","IAIONEX Policy"],
+    "notice":"All outputs tagged to JLG • IAIONEX.AB • UID=IAIONEX.70ID"
+  },
+  "global_claims":[
+    "Token‑free deterministic pipeline RX→HEUR→(LSH∪Suffix)→Planner‑IR→MATH→WFST→GUARD→TX.",
+    "128‑bit SIMHash + LSH with O(1) recall; suffix/trigram precision layers.",
+    "Planner‑IR canonical JSON with SHA‑256 proof‑links and replay parity.",
+    "Deterministic C‑core (rational/interval arithmetic) emitting proof‑tokens.",
+    "WFST shaping for idempotent structure and anti‑repetition.",
+    "Append‑only ledger + Merkle roots (tamper‑evident history).",
+    "Sealed exports (ODT/PDF/TAR) carrying UID and cryptographic proof.",
+    "Watchdogs + policy gates that guarantee offline integrity."
+  ],
+  "signing":{
+    "canonicalization":"UTF‑8 JSON, sort_keys=true, separators=(',',':')",
+    "signature_algo":"SHA‑256",
+    "how_to_sign":"echo -n <canonical_json> | sha256sum -> manifest_sha256",
+    "manifest_sign":"sha256:<compute_at_export>"
+  }
+}
