@@ -31,6 +31,5 @@
     document.addEventListener("click", e=>{ if(!panel.hidden && !panel.contains(e.target) && e.target!==bubble) closePanel(); });
     form.addEventListener("submit", e=>{ e.preventDefault(); const q=(input.value||"").trim(); if(!q) return; add(esc(q),"user"); add(ans(q),"bot"); input.value=""; });
   }
-
   document.readyState==="loading" ? document.addEventListener("DOMContentLoaded",init) : init();
 })();
