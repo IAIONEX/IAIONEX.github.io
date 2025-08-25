@@ -4,3 +4,7 @@
 *.sha256
 .gh_token
 .cf_token
+.guard/
+CF_PURGE.sh
+IAX_REPAIR_HTTPS.sh
+URL_PURGE*.sh
