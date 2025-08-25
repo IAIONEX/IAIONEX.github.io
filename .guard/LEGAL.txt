@@ -1,0 +1,5 @@
+IAIONEX.AB • GUARD POLICY
+UID: IAIONEX.70ID • Owner: JOHAN GÄRTNER • ORCID: 0009-0001-9029-1379 • Domain: iaionex.com • DNA: UNSPECIFIED
+Denna vakt övervakar filintegritet i ~/IAIONEX.WEB, signerar loggar med SHA256,
+kedjar ledger-poster med prev/chain-hash, roterar loggar, och skapar snapshots.
+Ingen nätverksåtkomst. Allt är lokalt och deterministiskt. © IAIONEX.AB.
