@@ -1,128 +1,39 @@
 <!doctype html>
 <html lang="en">
 <head>
-<link rel="canonical" href="https://iaionex.com/">
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>IAIONEX • Sovereign Offline AI</title>
-  <meta name="description" content="IAIONEX — Sovereign Offline AI • 100% Offline • UID‑Locked • Deterministic — By Johan Gärtner">
-  <meta name="theme-color" content="#0b0f14">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IAIONEX</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="top-header"></header>
-  <!-- HERO (no H1; single centered logo + tagline) -->
-  <header class="hero" id="top">
-    <div class="hero-inner">
-      <h1 class="hero-logo">IAIONEX</h1>
-      <p class="tagline">World’s First Offline AI on Android<br>
-100% Offline • UID‑Locked • Deterministic — By Johan Gärtner</p>
-      <nav class="hero-nav">
-        <a href="#about">About</a>
-        <a href="#tech">Technology</a>
-        <a href="#research">Research</a>
-        <a href="#legal">Legal Identity</a>
-        <a href="#mission">Mission</a>
-        <a href="#contact" class="btn primary">Contact</a>
-      </nav>
-    </div>
+  <header class="top-header">
+    <img class="logo-top" src="assets/brain_logo.png" alt="IAIONEX">
   </header>
 
   <main>
-    <section class="hero" id="top"></section>
-    <section id="about">
-      <h2>About</h2>
-      <div class="glass">
-        <p><strong>IAIONEX</strong> is a sovereign, deterministic, fully offline AI system engineered <strong>from scratch by Johan Gärtner</strong> (IAIONEX.AB). It runs on Termux/ARM64, Linux and Windows with no cloud, no telemetry, and no external models.</p>
-      </div>
-      <div class="glass">
-        <h3>What “built from scratch” really means</h3>
-        <ul>
-          <li><strong>Original architecture:</strong> every core component is designed and implemented independently — not a wrapper around external frameworks.</li>
-          <li><strong>Sovereign control:</strong> runs locally under the owner’s authority; nothing phones home.</li>
-          <li><strong>Deterministic results:</strong> the same input always yields the same output, enabling audit and reproducibility.</li>
-          <li><strong>UID‑locked ownership:</strong> artifacts are bound to <em>JOHAN GÄRTNER • IAIONEX.AB • UID=IAIONEX.70ID</em> for traceable authorship.</li>
-          <li><strong>Cryptographic integrity:</strong> files can be verified with SHA‑256 and optional QR tags.</li>
-        </ul>
-      </div>
+    <section class="hero" id="top">
+      <h1>IAIONEX</h1>
+      <p>Sovereign Offline AI • UID-Locked • Deterministic</p>
     </section>
-
-    <section id="tech">
-      <h2>Technology</h2>
-      <div class="glass">
-        <ul>
-          <li><strong>Token‑free text generation:</strong> coherent long‑form output by deterministic composition instead of neural token sampling.</li>
-          <li><strong>Planner‑IR (explainable reasoning):</strong> goals, steps and evidence represented in a readable plan so decisions are inspectable.</li>
-          <li><strong>Mathematical core:</strong> precise arithmetic and proof tokens with explicit bounds for dependable results.</li>
-          <li><strong>WFST output shaping:</strong> deterministic formatting for headings, lists and tables — no repetition or drift.</li>
-          <li><strong>Append‑only ledger:</strong> tamper‑evident history with replay for audits and forensic review.</li>
-          <li><strong>Sealed exports:</strong> ODT/PDF/TAR packages carry UID + SHA‑256 + optional QR for instant authenticity checks.</li>
-          <li><strong>Sentinel security:</strong> watchdogs and policy gates enforce offline operation and block injections.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="research">
-      <h2>Research & Publications</h2>
-      <div class="glass">
-        <p>Original research authored by <strong>Johan Gärtner</strong>, including multi‑volume work on empathy, neurocognition, and AI. Public pages show a safe summary; full materials are provided on request under IAIONEX.AB policy.</p>
-        <p><a href="IAIONEX_Whitepaper.pdf">IAIONEX Whitepaper (PDF)</a> • <a href="IAIONEX_Whitepaper.odt">IAIONEX Whitepaper (ODT)</a></p>
-      </div>
-    </section>
-
-    <section id="legal">
-      <h2>Legal Identity</h2>
-      <div class="glass">
-        <ul>
-          <li><strong>Owner:</strong> Johan Gärtner</li>
-          <li><strong>Company:</strong> IAIONEX.AB</li>
-          <li><strong>UID:</strong> IAIONEX.70ID</li>
-          <li><strong>ORCID:</strong> 0009‑0001‑9029‑1379</li>
-          <li><strong>Domain:</strong> iaionex.com</li>
-          <li><strong>Email:</strong> <a href="mailto:johan@iaionex.com">johan@iaionex.com</a></li>
-        </ul>
-        <p>Every artifact is sealed with UID and SHA‑256 (optional QR), proving authorship and integrity.</p>
-      </div>
-    </section>
-
-    <section id="mission">
-      <h2>Mission</h2>
-      <div class="glass">
-        <p>IAIONEX establishes that AI can be sovereign, offline and deterministic — verifiable by design and owned by its creator. The system is engineered for sensitive and regulated environments where control and evidence matter.</p>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="glass">
-        <p>Email: <a href="mailto:johan@iaionex.com">johan@iaionex.com</a> • GitHub: <a href="https://github.com/IAIONEX" target="_blank" rel="noopener">github.com/IAIONEX</a></p>
-      </div>
-    </section>
-<div id="iax-chat-root" class="iax-root" aria-live="polite">
-  <button id="iax-bubble" class="iax-bubble iax-mini" aria-label="Open IAIONEX chat"></button>
-  <div id="iax-panel" class="iax-panel" hidden>
-    <div class="iax-head"><div class="iax-title">IAIONEX — Local Assistant</div><button id="iax-close" class="iax-close" aria-label="Close">×</button></div>
-    <div id="iax-log" class="iax-log"></div>
-    <form id="iax-form" class="iax-form"><input id="iax-q" class="iax-input" type="text" autocomplete="off" placeholder="Ask about offline, determinism, UID, ledger, research…"><button class="iax-send" type="submit">Send</button></form>
-  </div>
-</div>
-<script src="app.js"></script>
   </main>
-  <div id="assistant-box" class="assistant-box" aria-hidden="true" hidden>    <div class="chat-header">      <span>IAIONEX — Local Assistant</span>      <button id="chat-close" class="chat-close" aria-label="Close">×</button>    </div>    <div class="chat-body" id="chat-body"></div>    <div class="chat-input">      <input id="chat-input" type="text" placeholder="Ask about offline, determinism, UID, identity" autocomplete="off">      <button id="chat-send">Send</button>    </div>  </div>  <button id="mini-brain" class="mini-brain-btn" aria-haspopup="dialog" aria-controls="assistant-box" aria-expanded="false">      </button>
 
-  <footer>
-    © IAIONEX.AB • UID: IAIONEX.70ID • All rights reserved
-  </footer>
+  <div id="iax-chat-root" class="iax-root" aria-live="polite">
+    <button id="iax-bubble" class="iax-bubble iax-mini" aria-label="Open IAIONEX chat"></button>
+    <div id="iax-panel" class="iax-panel" hidden>
+      <div class="iax-head">
+        <div class="iax-title">IAIONEX — Local Assistant</div>
+        <button id="iax-close" class="iax-close" aria-label="Close">×</button>
+      </div>
+      <div id="iax-log" class="iax-log"></div>
+      <form id="iax-form" class="iax-form">
+        <input id="iax-q" class="iax-input" type="text" autocomplete="off"
+               placeholder="Ask about offline, determinism, UID, ledger, research…">
+        <button class="iax-send" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
 
-  <!-- Offline chat (closed by default) -->
-  
-  <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))}</script>
-
-  
-
-  
-
+  <script src="app.js"></script>
 </body>
 </html>
