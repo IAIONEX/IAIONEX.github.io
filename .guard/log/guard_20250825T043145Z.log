@@ -1,216 +1,1482 @@
-[ALERT] manifest ändrad 2025-08-25T13:42:37Z
+[ALERT] manifest ändrad 2025-08-25T15:10:49Z
 --- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
-+++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 15:42:37.321387244 +0200
-@@ -12,13 +12,15 @@
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:10:49.616532697 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
  faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
  07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
  ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
 -e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
 +4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
 +d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
 +597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
  18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
  495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
  55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
 -3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
-+ac6e01d8e6e938c70a053fea671998dd6981c21dd906dd047b353993dd67b00d  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
  41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
 -91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
-+0d3a98762160cbbc6259fde767e4c6fecd568251f2624288ac3f7d8f5e82d2a5  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
  e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
  f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
 -f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-+d7cd7a978af6893b7653c384051c784267621441322346e1fdbb9df59841bc92  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T134237Z.tar.zst
-[ALERT] manifest ändrad 2025-08-25T13:42:53Z
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151049Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:11:05Z
 --- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
-+++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 15:42:53.081387233 +0200
-@@ -12,13 +12,15 @@
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:11:05.644532685 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
  faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
  07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
  ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
 -e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
 +4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
 +d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
 +597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
  18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
  495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
  55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
 -3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
-+ac6e01d8e6e938c70a053fea671998dd6981c21dd906dd047b353993dd67b00d  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
  41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
 -91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
-+0d3a98762160cbbc6259fde767e4c6fecd568251f2624288ac3f7d8f5e82d2a5  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
  e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
  f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
 -f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-+d7cd7a978af6893b7653c384051c784267621441322346e1fdbb9df59841bc92  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T134253Z.tar.zst
-[ALERT] manifest ändrad 2025-08-25T13:43:09Z
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151105Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:11:21Z
 --- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
-+++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 15:43:09.133387221 +0200
-@@ -12,13 +12,15 @@
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:11:21.456532674 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
  faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
  07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
  ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
 -e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
 +4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
 +d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
 +597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
  18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
  495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
  55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
 -3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
-+ac6e01d8e6e938c70a053fea671998dd6981c21dd906dd047b353993dd67b00d  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
  41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
 -91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
-+0d3a98762160cbbc6259fde767e4c6fecd568251f2624288ac3f7d8f5e82d2a5  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
  e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
  f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
 -f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-+d7cd7a978af6893b7653c384051c784267621441322346e1fdbb9df59841bc92  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T134309Z.tar.zst
-[ALERT] manifest ändrad 2025-08-25T13:43:25Z
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151121Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:11:37Z
 --- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
-+++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 15:43:25.201387210 +0200
-@@ -12,13 +12,15 @@
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:11:37.644532663 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
  faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
  07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
  ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
 -e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
 +4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
 +d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
 +597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
  18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
  495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
  55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
 -3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
-+ac6e01d8e6e938c70a053fea671998dd6981c21dd906dd047b353993dd67b00d  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
  41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
 -91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
-+0d3a98762160cbbc6259fde767e4c6fecd568251f2624288ac3f7d8f5e82d2a5  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
  e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
  f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
 -f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-+d7cd7a978af6893b7653c384051c784267621441322346e1fdbb9df59841bc92  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T134325Z.tar.zst
-[ALERT] manifest ändrad 2025-08-25T13:43:41Z
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151137Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:11:53Z
 --- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
-+++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 15:43:41.265387198 +0200
-@@ -12,13 +12,15 @@
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:11:53.876532651 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
  faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
  07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
  ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
 -e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
 +4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
 +d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
 +597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
  18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
  495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
  55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
 -3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
-+ac6e01d8e6e938c70a053fea671998dd6981c21dd906dd047b353993dd67b00d  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
  41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
 -91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
-+0d3a98762160cbbc6259fde767e4c6fecd568251f2624288ac3f7d8f5e82d2a5  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
  e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
  f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
 -f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-+d7cd7a978af6893b7653c384051c784267621441322346e1fdbb9df59841bc92  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T134341Z.tar.zst
-[ALERT] manifest ändrad 2025-08-25T13:43:57Z
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151153Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:12:10Z
 --- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
-+++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 15:43:57.549387186 +0200
-@@ -12,13 +12,15 @@
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:12:10.056532639 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
  faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
  07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
  ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
 -e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
 +4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
 +d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
 +597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
  18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
  495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
  55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
 -3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
-+ac6e01d8e6e938c70a053fea671998dd6981c21dd906dd047b353993dd67b00d  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
  41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
 -91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
-+0d3a98762160cbbc6259fde767e4c6fecd568251f2624288ac3f7d8f5e82d2a5  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
  e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
  f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
 -f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-+d7cd7a978af6893b7653c384051c784267621441322346e1fdbb9df59841bc92  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T134357Z.tar.zst
-[ALERT] manifest ändrad 2025-08-25T13:44:13Z
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151210Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:12:26Z
 --- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
-+++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 15:44:13.717387175 +0200
-@@ -12,13 +12,15 @@
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:12:26.236532628 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
  faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
  07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
  ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
 -e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
 +4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
 +d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
 +597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
  18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
  495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
  55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
 -3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
-+ac6e01d8e6e938c70a053fea671998dd6981c21dd906dd047b353993dd67b00d  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
  41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
 -91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
-+0d3a98762160cbbc6259fde767e4c6fecd568251f2624288ac3f7d8f5e82d2a5  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
  e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
  f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
 -f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-+d7cd7a978af6893b7653c384051c784267621441322346e1fdbb9df59841bc92  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T134413Z.tar.zst
-[ALERT] manifest ändrad 2025-08-25T13:44:29Z
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151226Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:12:42Z
 --- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
-+++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 15:44:29.833387163 +0200
-@@ -12,13 +12,15 @@
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:12:42.400532616 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
  faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
  07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
  ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
 -e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
 +4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
 +d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
 +597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
  18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
  495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
  55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
 -3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
-+ac6e01d8e6e938c70a053fea671998dd6981c21dd906dd047b353993dd67b00d  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
  41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
 -91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
-+0d3a98762160cbbc6259fde767e4c6fecd568251f2624288ac3f7d8f5e82d2a5  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
  e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
  f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
 -f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-+d7cd7a978af6893b7653c384051c784267621441322346e1fdbb9df59841bc92  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T134429Z.tar.zst
-[ALERT] manifest ändrad 2025-08-25T13:44:45Z
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151242Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:12:58Z
 --- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
-+++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 15:44:45.805387152 +0200
-@@ -12,13 +12,15 @@
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:12:58.616532605 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
  faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
  07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
  ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
 -e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
 +4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
 +d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
 +597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
  18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
  495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
  55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
 -3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
-+ac6e01d8e6e938c70a053fea671998dd6981c21dd906dd047b353993dd67b00d  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
  41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
 -91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
-+0d3a98762160cbbc6259fde767e4c6fecd568251f2624288ac3f7d8f5e82d2a5  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
  e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
  f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
 -f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-+d7cd7a978af6893b7653c384051c784267621441322346e1fdbb9df59841bc92  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
-[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T134445Z.tar.zst
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151258Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:13:14Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:13:14.784532593 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151314Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:13:31Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:13:31.000532581 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151331Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:13:47Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:13:47.128532570 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151347Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:14:03Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:14:03.368532558 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151403Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:14:19Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:14:19.592532547 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151419Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:14:35Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:14:35.796532535 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151435Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:14:52Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:14:51.988532524 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151452Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:15:08Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:15:08.256532512 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151508Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:15:24Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:15:24.464532500 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151524Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:15:40Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:15:40.560532489 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151540Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:15:56Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:15:56.796532477 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151556Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:16:12Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:16:12.900532466 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151612Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:16:29Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:16:29.036532454 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151629Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:16:45Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:16:45.004532443 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151645Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:17:00Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:17:00.752532431 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151700Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:17:16Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:17:16.816532420 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151716Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:17:33Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:17:33.052532408 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151733Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:17:49Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:17:49.220532397 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151749Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:18:05Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:18:05.304532385 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151805Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:18:21Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:18:21.696532374 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151821Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:18:37Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:18:37.844532362 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151837Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:18:54Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:18:53.976532350 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151854Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:19:10Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:19:10.124532339 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151910Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:19:26Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:19:26.260532327 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151926Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:19:42Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:19:42.412532316 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151942Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:19:58Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:19:58.244532305 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T151958Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:20:14Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:20:14.400532293 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T152014Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:20:30Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:20:30.624532281 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T152030Z.tar.zst
+[ALERT] manifest ändrad 2025-08-25T15:20:46Z
+--- /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_baseline.sha256	2025-08-25 06:31:02.281382301 +0200
++++ /data/data/com.termux/files/home/IAIONEX.WEB/.guard/manifest_current.sha256	2025-08-25 17:20:46.924532270 +0200
+@@ -1,6 +1,7 @@
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/IAIONEX.WEB/.nojekyll
+ a244d170689eee1a191d78f19b0c9176c7a45bd0e42651c9cccc901ab3b29dd3  /data/data/com.termux/files/home/IAIONEX.WEB/404.html
+ 0bdd48a09d93b16e1bc967e89f3958a05fff77533910a144cf095f776eef339d  /data/data/com.termux/files/home/IAIONEX.WEB/CF_HTTPS_ENFORCE.sh
++56c3813a7dbec96f6b3a84372d73ffdc28f7905268464d5bc2ed1f98c9b5bc68  /data/data/com.termux/files/home/IAIONEX.WEB/CF_PURGE.sh
+ 1980fae9bb313157373c11b0a516f0bd75de517500dadf4259a6ef01c5693a09  /data/data/com.termux/files/home/IAIONEX.WEB/CF_SETUP_AND_ENFORCE.sh
+ 2c4c2ba091cb3687f873ebdb8bda9260363e297788f53199ef451731d6a6a623  /data/data/com.termux/files/home/IAIONEX.WEB/CNAME
+ 461370e6dda8a9b77ce0e3e0d44da868488f8ec4e4f60086e8000a7b0d8d6e72  /data/data/com.termux/files/home/IAIONEX.WEB/DNS_FIX.sh
+@@ -10,15 +11,22 @@
+ 3d6df2a704c7e3b67aa377480428d7f303bbc7b08e7de31831db296ecf8c8f00  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v3.sh
+ 6694ced6f7742bb89d68d7defba4707e93deb87546f002c51a5b23a79201d216  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v4.sh
+ faf5fc1e395d4a21c43f94a98651bac9c1ee471f1482238942e9ce4b9091cebf  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v5.sh
++6eb6acd10330a402eb0600ba764b2f8b69055400bb58fbb99a8ab61b512ff266  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_GOALL_v6.sh
+ 07ac6050267f4bfd4f729388b8fccc7d12ce65e4d21b81c711eb5566f9844be8  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX.sh
+ ef6695e6d367e70b9596850d8c2c5eb58e4629fd6eb252fd3224aa087c861173  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_MAXFIX_v2.sh
+-e23af20a8c266630fb213a4adda1d8e3187435c54c39ee16510bda185ceb3e6d  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++4e18713c19b520b978811930e7564b3a4e803ff968592b8a38e678ddb4f4eabb  /data/data/com.termux/files/home/IAIONEX.WEB/IAIONEX_WEB_TOTAL.sh
++3f77b5f0633108a14ec9a430663c9e57400d9b4ecd686724c508c26102f32a5b  /data/data/com.termux/files/home/IAIONEX.WEB/IAX_REPAIR_HTTPS.sh
++d7b430a2d6f717635649bb6744d510df99396c4cf3d9c3c9e148846ada13e631  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_CHAT_UI.sh
++597bdf58b83360f9a6560341245fbe5485b803118bfe29bd7956b64f9ab77336  /data/data/com.termux/files/home/IAIONEX.WEB/RESET_UI_COMMIT_PUSH.sh
++13caadd32239fb5bb2006628aa3ab28be41b2624fab3add22a981f3dafb5f753  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE.sh
++12fe1ec0037570949397bccbeb8707917123c4445c005b0e7f472ed5941d0998  /data/data/com.termux/files/home/IAIONEX.WEB/URL_PURGE_ALL.sh
+ 18b9ee6657ee42b0244743ec6e55b4485af39b53f56c082512de25bc4ae00497  /data/data/com.termux/files/home/IAIONEX.WEB/URL_VERIFY.sh
+ 495674b13d7415d14f095cc26e0bd9eee0195f328d97facbd3cbded3e617139b  /data/data/com.termux/files/home/IAIONEX.WEB/WAIT_AND_ENFORCE_PAGES.sh
++44060d0b5d6ba149f509339ab5695bdbe80ac61bbebd5fb9654c61cc136d60b3  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_CLEAN_FIX.sh
+ 55f499f842d2b990a13214b078797f45c7963b1928619b574d9f071346c78ea5  /data/data/com.termux/files/home/IAIONEX.WEB/WEB_ENFORCE_ALL.sh
+-3c52f157fc20f0dfd51e5a9c74a65b8572dae8dd3e9ca83f9ea1a4202fffcc60  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
++1cef5290db59e3d0189fa390866f007a6183e14d8aaa361350cbaf8f6665647e  /data/data/com.termux/files/home/IAIONEX.WEB/app.js
+ 41f351b548478c98a458ce8566b37a34a7c6b3e3897436b2ec159cbb28d0a53e  /data/data/com.termux/files/home/IAIONEX.WEB/iaionex_guard_max.sh
+-91d0e19e80763ba844bf97c34b28d660c573e5ff88e85fdb1fe56bbd073a030b  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
++a20476cf7023b75050636c932302dea6da6804fe814d6379e9f67dadde7dca5d  /data/data/com.termux/files/home/IAIONEX.WEB/index.html
+ e115ecb5c4b5e0d52b52bc9fd339c7d6b3faa2b6ea30cad7781606812c003999  /data/data/com.termux/files/home/IAIONEX.WEB/robots.txt
+ f616245303869a625530bad45e9ce4a96e2c89d2fb31da5cd1e28526b4fb128f  /data/data/com.termux/files/home/IAIONEX.WEB/sitemap.xml
+-f13d690fd6be2a65247cdde1620890d68a33165820c4604300766b579e3f74f9  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
++0a2ff70b8ef974addaa5ed6fd314325c06d828a479ca42567c236d1043939b94  /data/data/com.termux/files/home/IAIONEX.WEB/styles.css
+[SNAP] /data/data/com.termux/files/home/IAIONEX.WEB/.guard/snap/iaionex_web_20250825T152046Z.tar.zst
