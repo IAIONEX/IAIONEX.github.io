@@ -1,44 +1,40 @@
 (function(){
-  const box=document.getElementById('assistant-box');
-  const brain=document.getElementById('mini-brain');
-  const closeBtn=document.getElementById('chat-close');
-  const input=document.getElementById('chat-input');
-  const body=document.getElementById('chat-body');
-  const sendBtn=document.getElementById('chat-send');
+  if (window.__IAIONEX_CHAT_READY__) return; window.__IAIONEX_CHAT_READY__=true;
 
-  function openBox(){ box.hidden=false; box.setAttribute('aria-hidden','false'); brain.setAttribute('aria-expanded','true'); input&&input.focus(); }
-  function closeBox(){ box.hidden=true; box.setAttribute('aria-hidden','true'); brain.setAttribute('aria-expanded','false'); }
-
-  // start stängd
-  closeBox();
-
-  // toggla
-  brain&&brain.addEventListener('click', (e)=>{ e.preventDefault(); e.stopPropagation(); box.hidden?openBox():closeBox(); });
-  // stäng via ×
-  closeBtn&&closeBtn.addEventListener('click', (e)=>{ e.preventDefault(); e.stopPropagation(); closeBox(); });
-  // stäng via ESC
-  document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') closeBox(); });
-  // stäng klick utanför
-  document.addEventListener('click', (e)=>{ if(!box.hidden && !box.contains(e.target) && e.target!==brain && !brain.contains(e.target)) closeBox(); });
-
-  // enkel offline-svar
-  function reply(q){
-    q=(q||'').toLowerCase();
-    if(/offline|air.?gap/.test(q)) return "IAIONEX runs 100% offline — no cloud, no telemetry.";
-    if(/determin/.test(q)) return "Deterministic: same input → same output. Auditable & reproducible.";
-    if(/uid|identity|dna/.test(q)) return "All artifacts are UID‑locked to IAIONEX.70ID and DNA‑linked. SHA‑256 + optional QR.";
-    if(/whitepaper|research/.test(q)) return "Whitepaper summary is on the site. Full paper: johan@iaionex.com";
-    if(/owner|author|who/.test(q)) return "Created from scratch by Johan Gärtner • IAIONEX.AB • ORCID 0009‑0001‑9029‑1379.";
-    return "Ask about offline, determinism, UID, ledger or research.";
+  function esc(s){return String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[m]))}
+  function ans(q){
+    q=(q||"").toLowerCase();
+    if(/uid|identity|äg/.test(q)) return "All artifacts are UID-locked to IAIONEX.70ID with SHA-256 and QR.";
+    if(/offline|air.?gap|internet/.test(q)) return "Runs fully offline on Termux/ARM64, Linux, Windows — no cloud.";
+    if(/determin/.test(q)) return "Deterministic: same input → same output. Reproducible & auditable.";
+    if(/whitepaper|research|paper/.test(q)) return "Request full whitepaper: johan@iaionex.com";
+    if(/owner|author|skapare/.test(q)) return "Created by Johan Gärtner • IAIONEX.AB • ORCID 0009-0001-9029-1379.";
+    return "Ask about offline, determinism, UID, ledger, or research.";
   }
-  function addLine(txt, who){
-    const p=document.createElement('div');
-    p.className = who==='me' ? 'iax-msg me' : 'iax-msg ai';
-    p.style.margin='6px 0'; p.textContent = (who==='me'?'You: ':'IAIONEX: ') + txt;
-    body.appendChild(p); body.scrollTop = body.scrollHeight;
+
+  function init(){
+    const root=document.getElementById("iax-chat-root"); if(!root||root.dataset.ready) return;
+    const bubble=document.getElementById("iax-bubble");
+    const panel=document.getElementById("iax-panel");
+    const close=document.getElementById("iax-close");
+    const log=document.getElementById("iax-log");
+    const form=document.getElementById("iax-form");
+    const input=document.getElementById("iax-q");
+
+    function open(){ panel.hidden=false; input && input.focus();
+      if(!root.dataset.welc){ add("Hi — IAIONEX runs fully offline and deterministically.","bot"); root.dataset.welc="1"; } }
+    function closePanel(){ panel.hidden=true; }
+    function toggle(){ panel.hidden ? open() : closePanel(); }
+    function add(m,w){ const d=document.createElement("div"); d.className="iax-msg "+(w||"bot"); d.innerHTML=m; log.appendChild(d); log.scrollTop=log.scrollHeight; }
+
+    bubble.addEventListener("click", e=>{ e.preventDefault(); e.stopPropagation(); toggle(); });
+    close.addEventListener("click", e=>{ e.preventDefault(); e.stopPropagation(); closePanel(); });
+    document.addEventListener("keydown", e=>{ if(e.key==="Escape") closePanel(); });
+    document.addEventListener("click", e=>{ if(!panel.hidden && !panel.contains(e.target) && e.target!==bubble) closePanel(); });
+    form.addEventListener("submit", e=>{ e.preventDefault(); const q=(input.value||"").trim(); if(!q) return;
+      add(esc(q),"user"); add(ans(q),"bot"); input.value=""; });
+
+    root.dataset.ready="1";
   }
-  sendBtn&&sendBtn.addEventListener('click', ()=>{
-    const v=(input.value||'').trim(); if(!v) return;
-    addLine(v, 'me'); addLine(reply(v), 'ai'); input.value='';
-  });
+  document.readyState==="loading" ? document.addEventListener("DOMContentLoaded",init) : init();
 })();

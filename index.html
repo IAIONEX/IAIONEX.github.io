@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="top-header"><img class="logo-top" src="assets/brain_logo.png" alt="IAIONEX"></header>
+<header class="top-header"></header>
   <!-- HERO (no H1; single centered logo + tagline) -->
   <header class="hero" id="top">
     <div class="hero-inner">
@@ -31,19 +31,7 @@
   </header>
 
   <main>
-    <section class="hero" id="top">
-      <div class="overlay">
-        <img class="logo logo-brain" src="assets/brain_logo.png" alt="IAIONEX">
-        <h1 class="title">World’s First Offline AI on Android</h1>
-        <p class="sub">100% Offline • UID‑Locked • Deterministic — <b>by Johan Gärtner</b></p>
-        <nav class="cta cta-vertical">
-          <a class="btn" href="#about">About</a>
-          <a class="btn" href="#technology">Technology</a>
-          <a class="btn" href="#research">Research</a>
-          <a class="btn ghost" href="#contact">Contact</a>
-        </nav>
-      </div>
-    </section>
+    <section class="hero" id="top"></section>
     <section id="about">
       <h2>About</h2>
       <div class="glass">
@@ -112,8 +100,17 @@
         <p>Email: <a href="mailto:johan@iaionex.com">johan@iaionex.com</a> • GitHub: <a href="https://github.com/IAIONEX" target="_blank" rel="noopener">github.com/IAIONEX</a></p>
       </div>
     </section>
+<div id="iax-chat-root" class="iax-root" aria-live="polite">
+  <button id="iax-bubble" class="iax-bubble iax-mini" aria-label="Open IAIONEX chat"></button>
+  <div id="iax-panel" class="iax-panel" hidden>
+    <div class="iax-head"><div class="iax-title">IAIONEX — Local Assistant</div><button id="iax-close" class="iax-close" aria-label="Close">×</button></div>
+    <div id="iax-log" class="iax-log"></div>
+    <form id="iax-form" class="iax-form"><input id="iax-q" class="iax-input" type="text" autocomplete="off" placeholder="Ask about offline, determinism, UID, ledger, research…"><button class="iax-send" type="submit">Send</button></form>
+  </div>
+</div>
+<script src="app.js"></script>
   </main>
-  <div id="assistant-box" class="assistant-box" aria-hidden="true" hidden>    <div class="chat-header">      <span>IAIONEX — Local Assistant</span>      <button id="chat-close" class="chat-close" aria-label="Close">×</button>    </div>    <div class="chat-body" id="chat-body"></div>    <div class="chat-input">      <input id="chat-input" type="text" placeholder="Ask about offline, determinism, UID, identity" autocomplete="off">      <button id="chat-send">Send</button>    </div>  </div>  <button id="mini-brain" class="mini-brain-btn" aria-haspopup="dialog" aria-controls="assistant-box" aria-expanded="false">    <img src="assets/brain_logo.png" alt="Assistant" class="mini-brain-img">  </button>
+  <div id="assistant-box" class="assistant-box" aria-hidden="true" hidden>    <div class="chat-header">      <span>IAIONEX — Local Assistant</span>      <button id="chat-close" class="chat-close" aria-label="Close">×</button>    </div>    <div class="chat-body" id="chat-body"></div>    <div class="chat-input">      <input id="chat-input" type="text" placeholder="Ask about offline, determinism, UID, identity" autocomplete="off">      <button id="chat-send">Send</button>    </div>  </div>  <button id="mini-brain" class="mini-brain-btn" aria-haspopup="dialog" aria-controls="assistant-box" aria-expanded="false">      </button>
 
   <footer>
     © IAIONEX.AB • UID: IAIONEX.70ID • All rights reserved
@@ -125,22 +122,7 @@
 
   
 
-  <div id="iax-chat-root" class="iax-root" aria-live="polite">
-    <button id="iax-bubble" class="iax-bubble iax-mini" aria-label="Open IAIONEX chat"></button>
-    <div id="iax-panel" class="iax-panel" hidden>
-      <div class="iax-head">
-        <div class="iax-title">IAIONEX — Local Assistant</div>
-        <button id="iax-close" class="iax-close" aria-label="Close">×</button>
-      </div>
-      <div id="iax-log" class="iax-log"></div>
-      <form id="iax-form" class="iax-form">
-        <input id="iax-q" class="iax-input" type="text" autocomplete="off"
-               placeholder="Ask about offline, determinism, UID, ledger, research…">
-        <button class="iax-send" type="submit">Send</button>
-      </form>
-    </div>
-  </div>
-  <script src="app.js"></script>
+  
 
 </body>
 </html>

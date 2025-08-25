@@ -227,3 +227,37 @@ html,body{height:100%} body{margin:0;background:#0b1520;color:var(--text);font:1
 .chat-input{display:flex; gap:8px; border-top:1px solid rgba(255,255,255,.12); padding:10px}
 .chat-input input{flex:1; min-width:0; background:#0f1620; color:inherit; border:1px solid rgba(255,255,255,.16); border-radius:10px; padding:9px}
 .chat-input button{border:1px solid rgba(255,255,255,.16); border-radius:10px; padding:9px 12px; background:#2e5aa7; color:#fff; cursor:pointer}
+/* brain+bubble fix */
+.hero{position:relative;min-height:92vh;display:grid;place-items:center;padding:56px 16px;text-align:center}
+.hero::before{
+  content:""; position:absolute; inset:0; z-index:0; opacity:.22;
+  background: radial-gradient(60% 60% at 50% 40%, #0b1520 0%, #0b1520 18%, transparent 19%) center/cover no-repeat,
+              url("assets/brain_logo.png") center 20% / min(140vh,1200px) no-repeat;
+}
+.hero>*{position:relative; z-index:1}
+
+/* Chat root fixed nere till höger */
+.iax-root{position:fixed; right:16px; bottom:20px; z-index:9999}
+
+/* Mini-bubblan = din logga */
+.iax-bubble.iax-mini{
+  width:64px; height:64px; border-radius:50%;
+  background:url("assets/logo.png") center/contain no-repeat transparent;
+  border:none; box-shadow:0 10px 28px rgba(0,0,0,.45); cursor:pointer;
+}
+.iax-bubble.iax-mini:active{transform:scale(.98)}
+
+/* Panelen */
+.iax-panel{position:fixed; right:16px; bottom:96px; width:min(92vw,380px); max-height:min(70vh,620px);
+  background:rgba(16,22,30,.85); border:1px solid rgba(255,255,255,.12);
+  backdrop-filter:blur(10px); border-radius:14px; box-shadow:0 12px 36px rgba(0,0,0,.5); display:block}
+[hidden].iax-panel{display:none}
+.iax-head{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.1)}
+.iax-close{background:transparent;border:0;color:#e8eef6;font-size:20px;cursor:pointer}
+.iax-log{padding:10px 12px;overflow:auto;max-height:48vh}
+.iax-msg{margin:6px 0;padding:8px 10px;border-radius:12px;max-width:92%}
+.iax-msg.user{background:rgba(255,255,255,.10);align-self:flex-end}
+.iax-msg.bot{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10)}
+.iax-form{display:flex;gap:8px;padding:10px 12px;border-top:1px solid rgba(255,255,255,.1)}
+.iax-input{flex:1;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:#e8eef6}
+.iax-send{padding:10px 14px;border-radius:10px;border:1px solid transparent;background:#cfd6df;color:#0b1520;font-weight:600;cursor:pointer}
